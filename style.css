@@ -24,11 +24,12 @@
 
 		width: 50%;
 		height: 6%;
+		max-height: 60px;
 		border: none;
-		border-radius: 3px;
+		border-radius: 50px;
 		outline: none;
 		text-align: center;
-		background-color: rgb(7, 39, 28);
+		background-color: rgba(193, 194, 255, 0.1);
 		color: var(--main-text);
 		font-size: 14pt;
 		font-family: 'Open Sans Italic', sans-serif;
@@ -36,7 +37,7 @@
 		display: block;
 		margin: auto;
 		margin-top: 50px;
-		caret-color: transparent;
+		caret-color: rgba(0, 0, 0, 0.1);
 	}
 	
     #stripe {
